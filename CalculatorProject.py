@@ -18,8 +18,6 @@ class Calc(Tk):
         self.title("Python Tkinter")
         self.minsize(475,600)
         self.input = []
-        self.left = None
-        self.right = None
         
     def num_click (self, num):
         if len(self.input) == 0:
